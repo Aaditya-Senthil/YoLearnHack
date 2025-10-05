@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "*"
+      },
+      "Action": [
+        "kinesisvideo:ConnectAsViewer",
+        "kinesisvideo:GetSignalingChannelEndpoint",
+        "kinesisvideo:DescribeSignalingChannel",
+        "kinesisvideo:GetIceServerConfig"
+      ],
+      "Resource": "arn:aws:kinesisvideo:ap-south-1:682371128887:channel/CompanionMeetChannel/1759628966213"
+    }
+  ]
+}
